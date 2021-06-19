@@ -1,0 +1,11 @@
+
+*{
+    margin: 0;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; //for firefox
+        &::-webkit-scrollbar{
+            display: none;
+        }
+    scroll-behavior: smooth;
+    scroll-snap-align: start;
+}
